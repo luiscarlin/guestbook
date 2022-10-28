@@ -6,7 +6,7 @@ const Home = () => {
   const { data: session, status } = useSession();
   const [message, setMessage] = useState("");
   const postMessage = trpc.guestbook.postMessage.useMutation({onSuccess: (newMessage) => {
-    ctx.guestbook.getAll.setData(old =>[...(old ?? []), newMessage])
+    ctx.guestbook.getAll.setData(old =>[newMessage, ...(old ?? [])])
   }});
 
   const ctx = trpc.useContext();
