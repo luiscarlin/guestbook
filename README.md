@@ -1,7 +1,7 @@
 # Guestbook
 
-tutorial: https://dev.to/nexxeln/build-a-full-stack-app-with-create-t3-app-5e1e
-deployment: https://guestbook-luis.vercel.app/
+- tutorial: https://dev.to/nexxeln/build-a-full-stack-app-with-create-t3-app-5e1e
+- deployment: https://guestbook-luis.vercel.app/
 
 ## Good 
 - React query is amazing. It manages the client side cache, one of the big selling points when using apollo. 
