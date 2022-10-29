@@ -30,5 +30,5 @@
 ## Next Steps
 
 - How does tRPC work in separate repos? Even a monorepo?
-- What's the advantage over exporting a client sdk that provides types for REST?
+- What's the advantage of tRPC over exporting a client sdk REST wrapper?
 - How do the types become avaiable in the client?
