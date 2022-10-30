@@ -2,5 +2,4 @@
 
 Guestbook app built with several stacks
 
-1. trcp + NextJS FE and BE
-2.
+1. [trcp + NextJS FE and BE](./trcp-nextjs/)
